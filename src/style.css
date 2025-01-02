@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Regular.woff2') format('woff2'),
+         url('fonts/Poppins-Regular.woff') format('woff'),
+         url('fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Bold.woff2') format('woff2'),
+         url('fonts/Poppins-Bold.woff') format('woff'),
+         url('fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Apply the font to your elements */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+body {
+
+    background-color: #f8f8fb;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.login-container {
+
+    background-color: #ffffff;
+    width: 28.2rem;
+    height: 31rem;
+    border-radius: 0.1rem;
+    box-shadow: 0px 0px 35px #eeeeee;
+    margin-top: 6rem;
+    margin-left: 35%;
+    margin-right: 35%;
+
+}
+
+.logo {
+    width: 408px;
+    height: 89.3375px;
+    margin: 1.5rem ;
+}
+
+.my-inputs {
+    padding-left: 2rem;
+    font-size: 13px;
+    
+    
+}
+
+.my-inputs label {
+    font-family: 'Poppins';
+    color: #495057;
+    line-height: 19.5px;
+    width: 37.05px;
+    margin-bottom: 8px;
+    font-weight: 500 ;
+    letter-spacing: 0;
+    text-decoration: none;
+    transform: none;
+    font-style: normal;
+    size: 13px;
+}
+
+.email {
+    padding: 7.52px;
+    border: 1px solid rgb(206, 212, 218) ;
+    width: 23.3rem;
+    border-radius: 0.2rem;
+    margin-top: 0.4rem;
+    height: 1.2rem;
+    text-decoration: none ;
+}
+
+.email:active {
+    outline: none;
+}
+
+.email:focus {
+    outline: none;
+    text-align: start;
+    text-indent: 0px;
+    text-rendering: auto;
+    text-shadow: none;
+    text-size-adjust: 100%;
+    text-transform: none;
+}
+.password {
+    padding: 7.52px;
+    border: 1px solid rgb(206, 212, 218) ;
+    width: 23.3rem;
+    border-radius: 0.2rem;
+    margin-top: 0.4rem;
+    height: 1.2rem;
+}
+
+.password:active {
+    outline: none;
+}
+
+.password:focus {
+    outline: none;
+    
+}
+.remember-me {
+    margin-top: 1.5rem;
+    
+    border: 3px solid #30e0ff;
+}
+
+
+.login-btn {
+
+    margin-top: 1.5rem;
+    padding: 7.52px;
+    border: 1px solid rgb(206, 212, 218) ;
+    height: 2.4rem;
+    width: 24rem;
+    border-radius: 0.2rem;
+    color: #fff;
+    background-color: rgb(80, 165, 241);
+}
