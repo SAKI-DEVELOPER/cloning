@@ -41,10 +41,11 @@ body {
     margin-top: 6rem;
     margin-left: 35%;
     margin-right: 35%;
+    display: inline-block;
 
 }
 
-.logo {
+.login-logo {
     width: 408px;
     height: 89.3375px;
     margin: 1.5rem ;
@@ -131,6 +132,7 @@ body {
 }
 
 .lock-icon {
+    display: inline-block;
     height: 0.8rem;
     width: 0.8rem;
     margin-top: 0.3rem;
@@ -139,10 +141,101 @@ body {
 }
 
 .forgot {
+    display: inline-block;
     font-family: Poppins;
     text-decoration: none;
     color: #74788d;
     margin-top: 0.1rem;
     margin-left: 0.3rem;
     position: absolute;
+}
+
+.forgot-container {
+
+    background-color: #ffffff;
+    width: 28.2rem;
+    height: 23.8rem;
+    border-radius: 0.1rem;
+    box-shadow: 0px 0px 35px #eeeeee;
+    margin-top: 5.5rem;
+    margin-left: 35%;
+    margin-right: 35%;
+    display: inline-block;
+
+}
+
+.forgot-logo {
+    width: 365px;
+    height: 77px;
+    margin-left: 2.8rem ;
+    margin-top: 1.6rem;
+    display: inline;
+}
+
+.inputs {
+    padding-left: 2rem;
+    font-size: 13px;
+    margin-top: 1.7rem;
+    
+    
+}
+
+.email::placeholder {
+    font-family: 'Poppins';
+    padding-left: 0.3rem;
+    font-size: 0.7rem;
+}
+
+.inputs label {
+    font-family: Poppins;
+    color: #495057;
+    line-height: 19.5px;
+    width: 37.05px;
+    margin-bottom: 8px;
+    font-weight: 500 ;
+    letter-spacing: 0;
+    text-decoration: none;
+    transform: none;
+    font-style: normal;
+    size: 13px;
+}
+
+.reset-btn {
+
+    float: right;
+    margin-top: 1rem;
+    margin-right: 1.6rem;
+    padding: 7.52px;
+    border: 1px solid rgb(206, 212, 218) ;
+    height: 2.3rem;
+    width: 6.9rem;
+    border-radius: 0.2rem;
+    color: #fff;
+    background-color: rgb(80, 165, 241);
+    font-family: Poppins;
+    font-size: 0.7rem;
+    font-weight: 370;
+}
+
+.go-back {
+    font-family: Poppins;
+    display: inline-block;
+    margin-left: 11.2rem;
+    margin-top: 4.4rem;
+    font-size: 0.76rem;
+    font-weight: 300;
+    line-height: 1.7rem;
+
+
+}
+
+.go-back p {
+    display: inline-block;
+
+}
+
+.go-back a {
+    text-decoration: none;
+    color: rgb(80, 165, 241);
+    display: inline-block;
 }
