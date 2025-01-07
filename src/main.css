@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+body, html {
+
+    font-family: Poppins, sans-serif;
+    background-color: #f8f8fb;
+    display: grid;
+    height: 99.47%;
+    margin: 0px;
+    padding: 0px;
+    gap: 0px;
+
+}
+.container {
+    margin: 0px;
+    padding: 0px;
+       
+}
+
+.header {
+    width: 83.5%;
+    height: 4.5rem;
+    background-color: rgb(255, 255, 255);;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    margin-left: -2px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    box-shadow: inset 0px 0px 1px rgba(125, 125, 125, 0.1);
+    
+}
+
+.side-nav {
+    width: 16.5%;
+    background-color: rgb(255, 255, 255);
+    height: 245%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border-right: 1px solid rgb(230, 230, 230);
+    box-shadow: inset 0px 0px 1px rgba(125, 125, 125, 0.1);
+    
+}
+
+.logo {
+    width: 192px;
+    height: auto;
+    padding: 1rem 2rem 0.7rem 1.81rem;
+    cursor: pointer;    
+}
+
+.burger {
+    width: 18px;
+    height: 14px;
+    padding: 1.7rem 0rem 0rem 1rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
