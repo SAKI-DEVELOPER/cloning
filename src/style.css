@@ -144,6 +144,7 @@ input[type="checkbox"] {
     border-radius: 0.2rem;
     color: #fff;
     background-color: rgb(80, 165, 241);
+    cursor: pointer;
 }
 
 .login-btn:hover {
@@ -224,14 +225,14 @@ a {
     font-family: Poppins;
     color: #495057;
     line-height: 19.5px;
-    width: 37.05px;
+    width: 33.05px;
     margin-bottom: 8px;
     font-weight: 500 ;
     letter-spacing: 0;
     text-decoration: none;
     transform: none;
     font-style: normal;
-    size: 13px;
+    size: 10px;
 }
 
 .reset-btn {
@@ -279,3 +280,264 @@ a {
     position: relative;
 }
 
+@media (max-width : 450px) {
+
+    body, html {
+
+        font-family: Poppins, sans-serif;
+        background-color: #f8f8fb;
+        font-family: Poppins, sans-serif;
+        display: grid;
+        place-items: center;
+        height: 100%;
+        justify-items: center;
+        margin-top: -1.5rem;
+    
+    }
+
+    .login-container {
+
+        background-color: #ffffff;
+        width: 20.2rem;
+        height: 31rem;
+        border-radius: 0.1rem;
+        box-shadow: 0px 0px 35px #eeeeee;
+        margin-top: 1rem;
+    
+    
+    }
+
+    .login-logo {
+        width: 300px;
+        height: auto;
+        margin: 1.5rem ;
+    }
+    
+    .my-inputs {
+        padding-left: 2rem;
+        font-size: 13px;
+        padding-right: 2rem;
+        
+    }
+    
+    .my-inputs label {
+        font-family: Poppins;
+        color: #495057;
+        line-height: 19.5px;
+        width: 37.05px;
+        margin-bottom: 8px;
+        font-weight: 500 ;
+        letter-spacing: 0;
+        text-decoration: none;
+        transform: none;
+        font-style: normal;
+        size: 13px;
+    }
+    
+    .email {
+        padding: 7.52px;
+        border: 1px solid rgb(206, 212, 218) ;
+        width: 15.5rem;
+        border-radius: 0.2rem;
+        margin-top: 0.4rem;
+        height: 1.2rem;
+        text-decoration: none ;
+        
+    }
+    
+    .email:active {
+        outline: none;
+    }
+    
+    .email:focus {
+        outline: none;
+        text-align: start;
+        text-indent: 0px;
+        text-rendering: auto;
+        text-shadow: none;
+        text-size-adjust: 100%;
+        text-transform: none;
+    }
+    .password {
+        padding: 7.52px;
+        border: 1px solid rgb(206, 212, 218) ;
+        width: 15.5rem;
+        border-radius: 0.2rem;
+        margin-top: 0.2rem;
+        height: 1.2rem;
+    }
+    
+    .password:active {
+        outline: none;
+    }
+    
+    .password:focus {
+        outline: none;
+        
+    }
+    .remember-me {
+        margin-top: 1.2rem;
+        border: 3px solid #30e0ff;
+    }
+    
+    .remember-me:focus {
+        border-color: #30e0ff;
+        box-shadow:inset 0px 0px 2px 2px rgba (26,188,156,0.25);
+        transition: all 2s;
+    }
+    
+    .remember-me:active {
+        border-color: #30e0ff;
+    }
+    input[type="checkbox"] {
+        border-color: #30e0ff;
+        outline: none;
+    }
+    
+    .login-btn {
+    
+        margin-top: 1.1rem;
+        padding: 7.52px;
+        border: 1px solid rgb(206, 212, 218) ;
+        height: 2.4rem;
+        width: 16.5rem;
+        border-radius: 0.2rem;
+        color: #fff;
+        background-color: rgb(80, 165, 241);
+        cursor: pointer;
+    }
+    
+    .login-btn:hover {
+        background-color: rgb(56, 128, 191);
+        transition: all 0.34s;
+    
+    }
+    
+    .login-btn:focus {
+        outline: none;
+    
+    }
+    
+    .lock-icon {
+        display: inline-block;
+        height: 0.8rem;
+        width: 0.8rem;
+        margin-top: 0.3rem;
+        margin-left: 3.5rem;
+        color: #74788d;
+    }
+    
+    .forgot {
+        display: inline-block;
+        font-family: Poppins;
+        text-decoration: none;
+        color: #74788d;
+        margin-top: 0.1rem;
+        margin-left: 0.3rem;
+        position: absolute;
+    }
+    
+    .forgot-container {
+    
+        background-color: #ffffff;
+        width: 20.2rem;
+        height: 23.8rem;
+        border-radius: 0.1rem;
+        box-shadow: 0px 0px 35px #eeeeee;
+        margin-top: -2.5rem;
+        margin-left: 35%;
+        margin-right: 35%;
+        display: inline-block;
+    
+    }
+    
+    a {
+        outline: none;
+    }
+    
+    .forgot-container:active {
+        outline: none;
+    }
+    
+    .forgot-logo {
+        width: 300px;
+        height: auto;
+        margin: 1.5rem ;
+        margin-left: 1.8rem ;
+        margin-top: 1.6rem;
+        display: inline;
+    }
+    
+    .inputs {
+        padding-left: 2rem;
+        font-size: 13px;
+        margin-top: 1.7rem;
+        
+        
+    }
+    
+    .email::placeholder {
+        font-family: 'Poppins';
+        padding-left: 0.3rem;
+        font-size: 0.7rem;
+    }
+    
+    .inputs label {
+        font-family: Poppins;
+        color: #495057;
+        line-height: 19.5px;
+        width: 37.05px;
+        margin-bottom: 8px;
+        font-weight: 500 ;
+        letter-spacing: 0;
+        text-decoration: none;
+        transform: none;
+        font-style: normal;
+        size: 13px;
+    }
+    
+    .reset-btn {
+    
+        float: right;
+        margin-top: 1rem;
+        margin-right: 1.6rem;
+        padding: 7.52px;
+        border: 1px solid rgb(206, 212, 218) ;
+        height: 2.3rem;
+        width: 6.9rem;
+        border-radius: 0.2rem;
+        color: #fff;
+        background-color: rgb(80, 165, 241);
+        font-family: Poppins;
+        font-size: 0.7rem;
+        font-weight: 370;
+    }
+    
+    .go-back {
+        font-family: Poppins;
+        display: inline-block;
+        margin-left: 7.2rem;
+        margin-top: 4.4rem;
+        font-size: 0.76rem;
+        font-weight: 300;
+        line-height: 1.7rem;
+    
+    
+    }
+    
+    .go-back p {
+        display: inline-block;
+    
+    }
+    
+    .go-back a {
+        text-decoration: none;
+        color: rgb(80, 165, 241);
+        display: inline-block;
+    }
+    
+    .container {
+        display: grid;
+        position: relative;
+    }
+}
