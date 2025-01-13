@@ -1,0 +1,12 @@
+<i class="bx bx-home-circle"></i>
+<i class="bx bx-shield-alt">
+<i class="bx bx-task">
+<i class="bx bxs-user-detail"></i>
+<i class="bx bx-receipt"></i>
+<i class="bx bx-money"></i>
+<i class="bx bx-briefcase-alt-2"></i>
+<i class="bx bx-file"></i>
+<i class="bx bx-loader"></i>
+<i class="bx bxs-flask"></i>
+<i class="mdi mdi-account-star"></i>
+<i class="bx bx-wrench"></i>
