@@ -22,9 +22,9 @@ body, html {
     
        
 }
-@media (max-width: 991px) {
 
-}
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -97,10 +97,11 @@ body, html {
 .left-sub-header {
     
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex: 0.3;
-    color: rgb(85, 91, 109);
+    color: rgb(147, 148, 149);
+    padding: 1rem 0rem 0rem 1rem;
 }
 
 .search-box {
@@ -115,6 +116,7 @@ body, html {
     position: absolute;
     z-index: 1;
     margin: 0.55rem 0rem 0.25rem 0.65rem;
+    
 }
 
 .Search {
@@ -126,7 +128,7 @@ body, html {
     opacity: 0.7;
     background-color: transparent;
     position: relative;
-    padding: 0rem 1rem 0rem 2.3rem;
+    padding: 0.15rem 1rem 0rem 2.3rem;
 }
 
 .Search::placeholder {
@@ -134,9 +136,25 @@ body, html {
     font-size: 12px;
 }
 
+
+.logo {
+    width: 192px;
+    height: auto;
+    padding: 1rem 2rem 0.7rem 1.81rem;
+    cursor: pointer;    
+}
+
+.sec-logo {
+    visibility: hidden;
+    width: 192px;
+    height: auto;
+    padding: 1rem 2rem 0.7rem 1.81rem;
+    position: absolute;
+}
+
 /* visibility: hidden; */
 
-@media (max-width : 1200px) and  (min-width: 100px){
+@media (max-width : 1200px) and  (min-width: 994px){
     .right-header { 
         flex:1;
 
@@ -153,6 +171,201 @@ body, html {
     }
     .left-sub-header {
         display: flex;
+    }
+    
+    .account-name {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .logo {
+        width: 192px;
+        height: auto;
+        padding: 1rem 2rem 0.7rem 1.81rem;
+        cursor: pointer;    
+    }
+    
+    .sec-logo {
+        visibility: hidden;
+        width: 192px;
+        height: auto;
+        padding: 1rem 2rem 0.7rem 1.81rem; 
+        position: absolute;
+    }
+
+}
+
+@media (max-width: 993px) and (min-width: 381px) {
+
+    
+
+    .logo {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .search-box {
+        visibility: hidden;
+    }
+
+    .side-nav {
+        visibility: hidden;
+        position: absolute;
+
+    }
+
+    .sec-burger {
+        width: 18px;
+        height: 14px;
+        /* padding: 1.7rem 0rem 0rem 1rem; */
+        cursor: pointer;
+        opacity: 0.6;
+        visibility: visible;
+        transition: none;
+    }
+
+    .burger {
+        width: 18px;
+        height: 14px;
+        /* padding: 1.7rem 0rem 0rem 1rem; */
+        cursor: pointer;
+        opacity: 0.6;
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .main-side {
+        visibility: hidden;
+        position: absolute;
+
+    }
+    .right-header { 
+        flex:1;
+
+    }
+    .right-sub-header {
+        justify-content: flex-end;
+        padding: 0rem 1.5rem 0rem 0rem;
+    }
+    .left-header {
+        
+        flex:1;
+        
+    
+    }
+    .left-sub-header {
+        display: flex;
+    }
+
+    .sec-logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        visibility: visible;
+        width: 100px;
+        height: auto;
+        padding: 0rem 2rem 0.7rem 0.5rem;
+        cursor: pointer; 
+        
+        transition: none;
+    }
+
+    .seond-logo{
+        max-width: 50px;
+        height: auto;
+        flex: 1;
+        transition: none;
+
+    }
+    
+    .account-name {
+        position: absolute;
+        visibility: hidden;
+    }
+
+}
+
+@media (max-width: 380px) and (min-width: 20px) {
+
+    .logo {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .search-box {
+        visibility: hidden;
+    }
+
+    .side-nav {
+        visibility: hidden;
+        position: absolute;
+
+    }
+
+    .sec-burger {
+        width: 18px;
+        height: 14px;
+        /* padding: 1.7rem 0rem 0rem 1rem; */
+        cursor: pointer;
+        opacity: 0.6;
+        visibility: visible;
+        transition: none;
+    }
+
+    .burger {
+        width: 18px;
+        height: 14px;
+        /* padding: 1.7rem 0rem 0rem 1rem; */
+        cursor: pointer;
+        opacity: 0.6;
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .main-side {
+        visibility: hidden;
+        position: absolute;
+
+    }
+    .right-header { 
+        flex:1;
+
+    }
+    .right-sub-header {
+        justify-content: flex-end;
+        padding: 0rem 1.5rem 0rem 0rem;
+    }
+    .left-header {
+        
+        flex:1;
+        
+    
+    }
+    .left-sub-header {
+        display: flex;
+    }
+
+    .sec-logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        visibility: visible;
+        width: 100px;
+        height: auto;
+        padding: 1rem 2rem 0.7rem 1.81rem;
+        cursor: pointer; 
+        transition: none;
+    }
+
+    .seond-logo{
+        max-width: 50px;
+        height: auto;
+        flex: 1;
+        transition: none;
+        visibility: hidden;
+        position: absolute;
+        transition: none;
+
     }
     
     .account-name {
@@ -203,6 +416,7 @@ body, html {
 .burger-menu {
     
     width: 1fr;
+    min-width: 2.5rem;
 
 }
 
@@ -226,16 +440,20 @@ body, html {
     
 }
 
-.logo {
-    width: 192px;
-    height: auto;
-    padding: 1rem 2rem 0.7rem 1.81rem;
-    cursor: pointer;    
-}
+
 
 .burger {
     width: 18px;
     height: 14px;
+    /* padding: 1.7rem 0rem 0rem 1rem; */
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.sec-burger {
+    max-width: 18px;
+    height: 14px;
+    flex: 1;
     /* padding: 1.7rem 0rem 0rem 1rem; */
     cursor: pointer;
     opacity: 0.6;
@@ -297,9 +515,4 @@ i {
 
 .bx {
  font-size: 20px;
-}
-
-
-@media {
-
 }
