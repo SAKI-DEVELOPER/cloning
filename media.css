@@ -1,0 +1,221 @@
+@media (max-width : 1200px) and  (min-width: 994px){
+    .right-header { 
+        flex:1;
+
+    }
+    .right-sub-header {
+        justify-content: flex-end;
+        padding: 0rem 1.5rem 0rem 0rem;
+    }
+    .left-header {
+        
+        flex:1;
+        
+    
+    }
+    .left-sub-header {
+        display: flex;
+    }
+    
+    .account-name {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .logo {
+        width: 192px;
+        height: auto;
+        padding: 1rem 2rem 0.7rem 1.81rem;
+        cursor: pointer;    
+    }
+    
+    .sec-logo {
+        visibility: hidden;
+        width: 192px;
+        height: auto;
+        padding: 1rem 2rem 0.7rem 1.81rem; 
+        position: absolute;
+    }
+
+}
+
+@media (max-width: 993px) and (min-width: 381px) {
+
+    
+
+    .logo {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .search-box {
+        visibility: hidden;
+    }
+
+    .side-nav {
+        visibility: hidden;
+        position: absolute;
+
+    }
+
+    .sec-burger {
+        width: 18px;
+        height: 14px;
+        /* padding: 1.7rem 0rem 0rem 1rem; */
+        cursor: pointer;
+        opacity: 0.6;
+        visibility: visible;
+        transition: none;
+    }
+
+    .burger {
+        width: 18px;
+        height: 14px;
+        /* padding: 1.7rem 0rem 0rem 1rem; */
+        cursor: pointer;
+        opacity: 0.6;
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .main-side {
+        visibility: hidden;
+        position: absolute;
+
+    }
+    .right-header { 
+        flex:1;
+
+    }
+    .right-sub-header {
+        justify-content: flex-end;
+        padding: 0rem 1.5rem 0rem 0rem;
+    }
+    .left-header {
+        
+        flex:1;
+        
+    
+    }
+    .left-sub-header {
+        display: flex;
+    }
+
+    .sec-logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        visibility: visible;
+        width: 100px;
+        height: auto;
+        padding: 0.6rem 2rem 0.7rem 0.5rem;
+        cursor: pointer; 
+        
+        transition: none;
+    }
+
+
+    .seond-logo{
+        max-width: 50px;
+        height: 50px;
+        flex: 1;
+        transition: none;
+
+    }
+    
+    .account-name {
+        position: absolute;
+        visibility: hidden;
+    }
+
+}
+
+@media (max-width: 380px) and (min-width: 20px) {
+
+    .logo {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .search-box {
+        visibility: hidden;
+    }
+
+    .side-nav {
+        visibility: hidden;
+        position: absolute;
+
+    }
+
+    .sec-burger {
+        width: 18px;
+        height: 14px;
+        /* padding: 1.7rem 0rem 0rem 1rem; */
+        cursor: pointer;
+        opacity: 0.6;
+        visibility: visible;
+        transition: none;
+    }
+
+    .burger {
+        width: 18px;
+        height: 14px;
+        /* padding: 1.7rem 0rem 0rem 1rem; */
+        cursor: pointer;
+        opacity: 0.6;
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .main-side {
+        visibility: hidden;
+        position: absolute;
+
+    }
+    .right-header { 
+        flex:1;
+
+    }
+    .right-sub-header {
+        justify-content: flex-end;
+        padding: 0rem 1.5rem 0rem 0rem;
+    }
+    .left-header {
+        
+        flex:1;
+        
+    
+    }
+    .left-sub-header {
+        display: flex;
+    }
+
+    .sec-logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        visibility: visible;
+        width: 100px;
+        height: auto;
+        padding: 1rem 2rem 0.7rem 1.81rem;
+        cursor: pointer; 
+        transition: none;
+    }
+
+    .seond-logo{
+        max-width: 50px;
+        height: auto;
+        flex: 1;
+        transition: none;
+        visibility: hidden;
+        position: absolute;
+        transition: none;
+
+    }
+    
+    .account-name {
+        position: absolute;
+        visibility: hidden;
+    }
+
+}
