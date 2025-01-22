@@ -354,12 +354,13 @@ i {
 
 .big-left {
     display: inline-flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     /* border: 2px solid #f00; */
-    min-width: 10rem;
+    min-width: 10.5rem;
     height: 6rem;
     padding: 0rem 2rem 0rem 2rem;
+    flex: 1;
 }
 
 .big-profile-user {
@@ -403,13 +404,13 @@ i {
 
 .big-right {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 10%;
     align-items: center;
     /* border: 2px solid #09f; */
     height: 6rem;
     padding: 0rem 2rem 0rem 2rem;
-    flex: 1;
+    flex: 2.5;
 
 }
 
